@@ -44,7 +44,8 @@ To monitor the temperatures I recommend the tool **Core Temp** which can be foun
 It allows the user to create a notification once the CPU has reached a certain temperature as a reminder to turn on the fans again.
 
 ## RW Everything
-With the tool RW Everything http://rweverything.com/ we can now change the register as shown in "Screenshot.png". The highlighted value to be set to 02 to turn off the fan.
+With the tool RW Everything http://rweverything.com/ we can now change the register. The highlighted value to be set to 02 to turn off the fan.
+![RWE](https://raw.githubusercontent.com/maisi/HP-Spectre-x360-Tools/master/Screenshot.PNG)
 
 Using the command line interface of RWE I created the two scripts fanoff.bat and fanon.bat to change the value quickly.
 
