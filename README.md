@@ -14,6 +14,7 @@ A way to control the RPM of your fan directly. The laptop will control the RPM i
 A reboot or wake from standby will reset the table and turn the fan on. (can be solved with the Task Scheduler)
 
 ## General Information
+The table comes from my Spectre x360 ae001 (8th gen Intel CPU) notebook but I assume that there are similar implementations on other Spectre notebooks.
 The DSTS table provides a method to turn off/on the fan:
 
     	Method(FSSP, 1, NotSerialized)
@@ -30,7 +31,7 @@ The DSTS table provides a method to turn off/on the fan:
 					}
 				}
 			}
-The register SFAN has the address "F4". The method shows that there a two possible states:
+The register SFAN has the address "F4". The method shows that there are two possible states:
 |FAN|SFAN |
 |Off|**0x02**|
 |On|**0x00**|
