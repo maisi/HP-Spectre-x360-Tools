@@ -32,9 +32,11 @@ The DSTS table provides a method to turn off/on the fan:
 				}
 			}
 The register SFAN has the address "F4". The method shows that there are two possible states:
-|FAN|SFAN |
-|Off|**0x02**|
-|On|**0x00**|
+
+|FAN| SFAN |
+|----|-----|
+|Off| **0x02**|
+|On| **0x00**|
 
 Off will turn off the fan completely regardless of the temperature of the CPU.
 On will turn on the fan. 
